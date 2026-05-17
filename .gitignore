@@ -1,0 +1,15 @@
+# Ignore user-specific workspace layout files
+*.[vV][bB][wW]
+
+# Ignore built files and logs
+*.[eE][xX][eE]
+*.[dD][lL][lL]
+*.[oO][cC][xX]
+*.[lL][oO][gG]
+*.[tT][mM][pP]
+*.[bB][aA][kK]
+*.[lL][aA][cC][cC][dD][bB]
+*.[lL][dD][bB]
+
+# Ignore old Visual SourceSafe junk
+*.[sS][cC][cC]
