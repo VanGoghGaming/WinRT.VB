@@ -1,0 +1,2 @@
+- **WinRT Interfaces x86.tlb** - Use this TypeLib with VB6 and VBA x86 flavors. It's an exact replica of the **twinBASIC** package.
+- **Unrestricted Interfaces x86.tlb** - This small TypeLib exposes unrestricted versions of _IUnknown_ and _IInspectable_ interfaces. It's useful mainly for implementing _IInspectable_ in VBx classes so that they can be added to WinRT collections.
