@@ -1,0 +1,2 @@
+- **WinRT Interfaces x64.tlb** - Use this TypeLib with VBA7 x64. It's an exact replica of the **twinBASIC** package.
+- **Unrestricted Interfaces x64.tlb** - This small TypeLib exposes unrestricted versions of _IUnknown_ and _IInspectable_ interfaces. It's useful mainly for implementing _IInspectable_ in VBA7 classes so that they can be added to WinRT collections.
