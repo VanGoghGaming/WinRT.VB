@@ -921,7 +921,7 @@ End Function
 
 ' ----------------------------------------------------------------------------------------------------------------------------
 
-#If (VBA7 <> False Or VBA6 <> False) And TWINBASIC = False Then
+#If Win64 <> False And TWINBASIC = False Then
 
 Public Function vbaCopyBytes(ByVal Length As Long, ByVal Destination As LongPtr, ByVal Source As LongPtr) As LongPtr
     CopyMemory ByVal Destination, ByVal Source, Length: vbaCopyBytes = Destination

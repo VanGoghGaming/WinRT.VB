@@ -13,6 +13,12 @@ Static IBitmapEncoderStatics As IBitmapEncoderStatics
     Set BitmapEncoderStatics = IBitmapEncoderStatics
 End Function
 
+Public Function BitmapTypedValueFactory() As IBitmapTypedValueFactory
+Static IBitmapTypedValueFactory As IBitmapTypedValueFactory
+    If IBitmapTypedValueFactory Is Nothing Then Set IBitmapTypedValueFactory = NewObject("BitmapTypedValue", False)
+    Set BitmapTypedValueFactory = IBitmapTypedValueFactory
+End Function
+
 Public Function BufferFactory() As IBufferFactory
 Static IBufferFactory As IBufferFactory
     If IBufferFactory Is Nothing Then Set IBufferFactory = NewObject("Buffer", False)
